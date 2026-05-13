@@ -35,7 +35,7 @@ This repository contains the design, layout, and simulation fundamental CMOS ana
 
 ## 🔗 Circuit Layouts & Netlists
 
-### **[PMOS Transistor](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/pmos)**
+### **[PMOS Transistor](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/tree/main/pmos)**
 
 <div align="center">
   <img src="pmos\pmos-design.png" alt="PMOS IC Design" width="65%">
@@ -57,7 +57,7 @@ This repository contains the design, layout, and simulation fundamental CMOS ana
 
 ---
 
-### **[NMOS Transistor](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/nmos)**
+### **[NMOS Transistor](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/tree/main/nmos)**
 
 <div align="center">
   <img src="nmos\nmos-design.png" alt="NMOS IC Design" width="65%">
@@ -80,7 +80,7 @@ This repository contains the design, layout, and simulation fundamental CMOS ana
 ---
 
 
-### **[CMOS Inverter](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/cmos-inverter)**
+### **[CMOS Inverter](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/tree/main/cmos-inverter)**
 
 <div align="center">
   <img src="cmos-inverter\cmos-inverter-design.png" alt="CMOS Inverter IC Design" width="65%">
@@ -113,7 +113,7 @@ This repository contains the design, layout, and simulation fundamental CMOS ana
 
 ---
 
-### **[Common Source Amplifier](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/common-source-amplifier)**
+### **[Common Source Amplifier](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/tree/main/common-source-amplifier)**
 
 <div align="center">
   <img src="common-source-amplifier\common-source-amp-design.png" alt="Common Source Amplifier IC Design" width="65%">
@@ -155,7 +155,7 @@ This repository contains the design, layout, and simulation fundamental CMOS ana
 
 ---
 
-### **[Common Drain Amplifier](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/common-drain-amplifier)**
+### **[Common Drain Amplifier](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/tree/main/common-drain-amplifier)**
 
 <div align="center">
   <img src="common-drain-amplifier\common-drain-amplifier-design.png" alt="Common Source Amplifier IC Design" width="65%">
@@ -200,7 +200,7 @@ This repository contains the design, layout, and simulation fundamental CMOS ana
 
 ---
 
-### **[Three Stage Oscillator](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/ring-oscillator)**
+### **[Three Stage Oscillator](https://github.com/ejramirez525/Analog-Integrated-Circuit-Design/tree/main/ring-oscillator)**
 
 <div align="center">
   <img src="ring-oscillator\ring-oscillator-design.png" alt="Ring Oscillator IC Design" width="65%">
