@@ -1,0 +1,19 @@
+*** SPICE deck for cell common-source-amp{sch} from library Analog_Circuit_CMOS_Chip
+*** Created on Mon May 11, 2026 20:51:40
+*** Last revised on Wed May 13, 2026 09:20:52
+*** Written on Wed May 13, 2026 09:22:09 by Electric VLSI Design System, version 9.08
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global 0 vdd
+
+*** TOP LEVEL CELL: common-source-amp{sch}
+Mnmos_0 Vout Vin 0 0 NMOS L=0.4U W=4U
+Mpmos_0 vdd Vout Vout vdd PMOS L=0.4U W=1U
+
+* Spice Code nodes in cell cell 'common-source-amp{sch}'
+vdd vdd 0 DC 5
+vin vin 0 sin(0.9 0.005 1k 0 0 0 50)
+.tran 0 5m
+.include "C:\C5_models.txt"
+.END

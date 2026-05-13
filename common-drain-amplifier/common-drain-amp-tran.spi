@@ -1,0 +1,18 @@
+*** SPICE deck for cell common-drain-amp{lay} from library Analog_Circuit_CMOS_Chip
+*** Created on Tue May 12, 2026 17:36:11
+*** Last revised on Wed May 13, 2026 09:40:35
+*** Written on Wed May 13, 2026 09:41:23 by Electric VLSI Design System, version 9.08
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: common-drain-amp{lay}
+Mnmos_0 Vout Vin vdd 0 NMOS L=1.2U W=1.2U AS=3.42P AD=2.61P PS=11U PD=7.8U
+Mnmos_1 0 Vb Vout 0 NMOS L=0.8U W=4U AS=2.61P AD=5.8P PS=7.8U PD=16.6U
+
+* Spice Code nodes in cell cell 'common-drain-amp{lay}'
+vdd vdd 0 DC 5
+vb vb 0 DC 1
+vin vin 0 sin(4 1 1k 0 0 0 50)
+.tran 0 5m
+.include "C:\C5_models.txt"
+.END
